@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var a = 0;
+    function create(params) {
+        var a = 1;
+        console.log(a)
+    }
+    create()
+
+    function createArr(params) {
+        var result = [];
+        for (let i = 0; i < 3; i++) {
+            result[i] = function () {
+                return i
+            }
+        }
+        return result
+    }
+    console.log(createArr()[0](), createArr()[1](), createArr()[2]())
+
+
+    var name = "The Window";
+    var object = {
+        name: "My Object",
+        getNameFunc: function () {
+            var me = this;
+            return function () {
+                return me.name;
+            };
+        }
+    };
+    alert(object.getNameFunc()()); //"The Window"（在非严格模式下）
+</script>
+
+</html>

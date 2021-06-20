@@ -1,0 +1,32 @@
+{
+  "name": "@wymp/types",
+  "version": "0.1.0-rc4",
+  "description": "Types relevant to packages in the Wymp ecosystem. Note that this is NOT the same as @wymp/ts-simple-interfaces. See README for explanation.",
+  "author": "Kael Shipman<kael.shipman@gmail.com>",
+  "homepage": "https://github.com/wymp/ts-types",
+  "repository": "https://github.com/wymp/ts-types",
+  "bugs": "https://github.com/wymp/ts-types/issues",
+  "contributors": "https://github.com/wymp/ts-types/graphs/contributors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "prepublishOnly": "rm -Rf dist; tsc"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.17.28"
+  },
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "prettier": "^2.3.0",
+    "pretty-quick": "^3.1.0",
+    "typescript": "^4.2.4"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "es5"
+  }
+}
