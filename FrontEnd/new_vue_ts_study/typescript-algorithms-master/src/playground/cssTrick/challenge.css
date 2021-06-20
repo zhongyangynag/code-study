@@ -1,0 +1,110 @@
+font-family: 'Roboto', sans-serif;
+-webkit-box-direction: normal;
+position: absolute;
+width: 151px;
+height: 151px;
+
+font-family: 'Roboto', sans-serif;
+-webkit-box-direction: normal;
+position: absolute;
+width: 151px;
+height: 151px;
+animation: rotate 3s ease infinite;
+animation-delay: .8s;
+transform-style: preserve-3d;
+transform: rotateX(-37.5deg) rotateY(45deg);
+
+font-family: 'Roboto', sans-serif;
+-webkit-box-direction: normal;
+position: absolute;
+width: 151px;
+height: 151px;
+box-sizing: border-box;
+background-color: rgba(242, 119, 119, 0.5);
+border: 15px solid white;
+animation: top-animation 3s ease infinite;
+animation-delay: 0ms;
+transform: rotateX(90deg) translateZ(150px);
+animation-fill-mode: forwards;
+transform-origin: 50% 50%;
+
+font-family: 'Roboto', sans-serif;
+-webkit-box-direction: normal;
+position: absolute;
+width: 151px;
+height: 151px;
+box-sizing: border-box;
+background-color: rgba(242, 119, 119, 0.5);
+border: 15px solid white;
+animation: right-animation 3s ease infinite;
+animation-delay: 100ms;
+transform: rotateY(90deg) translateZ(150px);
+animation-fill-mode: forwards;
+transform-origin: 50% 50%;
+
+font-family: 'Roboto', sans-serif;
+-webkit-box-direction: normal;
+position: absolute;
+width: 151px;
+height: 151px;
+box-sizing: border-box;
+background-color: rgba(242, 119, 119, 0.5);
+border: 15px solid white;
+animation: bottom-animation 3s ease infinite;
+animation-delay: 0ms;
+transform: rotateX(-90deg) translateZ(150px);
+animation-fill-mode: forwards;
+transform-origin: 50% 50%;
+
+font-family: 'Roboto', sans-serif;
+-webkit-box-direction: normal;
+position: absolute;
+width: 151px;
+height: 151px;
+box-sizing: border-box;
+background-color: rgba(242, 119, 119, 0.5);
+border: 15px solid white;
+animation: left-animation 3s ease infinite;
+animation-delay: 100ms;
+transform: rotateY(-90deg) translateZ(150px);
+animation-fill-mode: forwards;
+transform-origin: 50% 50%;
+
+font-family: 'Roboto', sans-serif;
+-webkit-box-direction: normal;
+position: absolute;
+width: 151px;
+height: 151px;
+box-sizing: border-box;
+background-color: rgba(242, 119, 119, 0.5);
+border: 15px solid white;
+animation: front-animation 3s ease infinite;
+animation-delay: 100ms;
+transform: rotateY(0deg) translateZ(150px);
+animation-fill-mode: forwards;
+transform-origin: 50% 50%;
+
+font-family: 'Roboto', sans-serif;
+-webkit-box-direction: normal;
+position: absolute;
+width: 151px;
+height: 151px;
+box-sizing: border-box;
+background-color: rgba(242, 119, 119, 0.5);
+border: 15px solid white;
+animation: back-animation 3s ease infinite;
+animation-delay: 100ms;
+transform: rotateY(-180deg) translateZ(150px);
+animation-fill-mode: forwards;
+transform-origin: 50% 50%;
+
+<div class="cube">
+    <div class="sides">
+      <div class="top"></div>
+      <div class="right"></div>
+      <div class="bottom"></div>
+      <div class="left"></div>
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+  </div>

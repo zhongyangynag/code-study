@@ -1,0 +1,2 @@
+//! Pass
+type HelloWorld = string;
