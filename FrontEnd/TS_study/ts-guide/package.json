@@ -1,0 +1,16 @@
+{
+  "name": "ts-complete-guide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve:dev": "lite-server",
+    "compile": "tsc --watch",
+    "start": "yon serve:dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "yarn-or-npm": "^2.0.4"
+  }
+}
