@@ -1,0 +1,19 @@
+{
+    "uploadConf": {
+        "name": "文旅云素材中心",
+        "type": "qcloud",
+        "from": "./dist/"
+    },
+    "cosConf": {
+        "app": {
+            "SecretId": "AKIDA7pQmsojW3NRFtrUUXKtAD1EFAuSPyGJ",
+            "SecretKey": "xepujJirlPeieKkyxhBJKH0Yq21DJCqE"
+        },
+        "conf": {
+            "appId": "1252759886",
+            "bucket": "fe",
+            "region": "ap-guangzhou",
+            "folder": "wly-mp"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.ivu-btn-primary {
+  background: #0252DB;
+  border-radius: 2px;
+}
+.ivu-modal-header {
+  border-bottom: none;
+}
+.ivu-modal-footer {
+  border-top: none;
+}
+.ivu-modal-confirm-body {
+  word-break: break-word;
+}
